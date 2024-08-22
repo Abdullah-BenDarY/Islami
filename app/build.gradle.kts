@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("androidx.navigation.safeargs.kotlin")
-
 }
 
 android {
@@ -59,4 +58,5 @@ dependencies {
     implementation(libs.ssp.android)
     // sdp
     implementation(libs.sdp.android)
+
 }

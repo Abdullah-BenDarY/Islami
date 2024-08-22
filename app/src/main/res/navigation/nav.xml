@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/quranFrafment">
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.islami.ui.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/quranFrafment"
+        android:name="com.example.islami.ui.QuranFrafment"
+        android:label="fragment_quran"
+        tools:layout="@layout/fragment_quran" />
 </navigation>

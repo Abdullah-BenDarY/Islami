@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbar_textStyle">
+        <item name="fontFamily">@font/elmessiri_bold</item>
+        <item name="android:textSize">@dimen/_30ssp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+
+    <style name="title_textStyle">
+        <item name="fontFamily">@font/elmessiri_bold</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+
+    <style name="counter_style">
+        <item name="android:textSize">@dimen/_19ssp</item>
+        <item name="android:layout_marginTop">@dimen/_15sdp</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+</resources>
