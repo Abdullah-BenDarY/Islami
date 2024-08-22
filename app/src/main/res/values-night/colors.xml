@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="doaa_color">#FACC1D</color>
+    <color name="doaa_text_color">#0F1424</color>
+    <color name="counter_background">#141A2E</color>
+    <color name="counter_text">#F8F8F8</color>
+    <color name="title_color">#F8F8F8</color>
+    <color name="tx_content_color">#FACC1D</color>
+    <color name="btm_nav_color">#141A2E</color>
+    <color name="btm_nav_selected_color">#FACC1D</color>
+    <color name="btm_nav_unselected_color">#F8F8F8</color>
+
+</resources>

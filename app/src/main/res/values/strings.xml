@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Islami</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">مرحبا</string>
+    <string name="islami">إسلامي</string>
+    <string name="quran">القرآن</string>
+    <string name="hadith">الأحاديث</string>
+    <string name="sibhah">التسبيح</string>
+    <string name="radio">الإذاعه</string>
+    <string name="عدد_التسبيحات">عدد التسبيحات</string>
 </resources>

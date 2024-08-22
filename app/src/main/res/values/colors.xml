@@ -3,5 +3,18 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gold">#B7935F</color>
-    <color name="gold_2">#614B2D</color>
+    <color name="gold2">#614B2D</color>
+    <color name="transparent">#00614B2D</color>
+
+
+    <color name="doaa_color">#B7935F</color>
+    <color name="doaa_text_color">#FFFFFFFF</color>
+    <color name="counter_background">#B7935F</color>
+    <color name="counter_text">#242424</color>
+    <color name="title_color">#242424</color>
+    <color name="tx_content_color">@color/black</color>
+    <color name="btm_nav_color">#B7935F</color>
+    <color name="btm_nav_selected_color">#242424</color>
+    <color name="btm_nav_unselected_color">#F8F8F8</color>
+
 </resources>
