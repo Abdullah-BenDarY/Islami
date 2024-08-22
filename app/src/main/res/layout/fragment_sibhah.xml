@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/main_background"
+    tools:context=".ui.SibhahFragment">
+
+    <ImageView
+        android:id="@+id/img_head_of_sebha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/head_sebha"
+        app:layout_constraintBottom_toTopOf="@id/img_body_of_sebha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/img_body_of_sebha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/body_sebha"
+        app:layout_constraintEnd_toEndOf="@id/img_head_of_sebha"
+        app:layout_constraintStart_toStartOf="@id/img_head_of_sebha"
+        app:layout_constraintTop_toBottomOf="@id/img_head_of_sebha"
+        app:layout_constraintWidth_percent="0.55" />
+
+    <TextView
+        android:id="@+id/tv_sebhah_couter"
+        style="@style/title_textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/عدد_التسبيحات"
+        app:layout_constraintBottom_toTopOf="@id/tv_counter"
+        app:layout_constraintEnd_toEndOf="@id/img_body_of_sebha"
+        app:layout_constraintStart_toStartOf="@id/img_body_of_sebha"
+        app:layout_constraintTop_toBottomOf="@id/img_body_of_sebha" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_counter"
+        style="@style/counter_style"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:backgroundTint="@color/counter_background"
+        android:textColor="@color/counter_text"
+        app:cornerRadius="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="@id/tv_sebhah_couter"
+        app:layout_constraintStart_toStartOf="@id/tv_sebhah_couter"
+        app:layout_constraintTop_toBottomOf="@id/tv_sebhah_couter"
+        tools:text="30" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_tasbih"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/doaa_color"
+        android:textColor="@color/doaa_text_color"
+        app:cornerRadius="@dimen/_20sdp"
+        style="@style/counter_style"
+        app:layout_constraintEnd_toEndOf="@id/tv_counter"
+        app:layout_constraintStart_toStartOf="@id/tv_counter"
+        app:layout_constraintTop_toBottomOf="@id/tv_counter"
+        android:text= "@string/sobhan_allah" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

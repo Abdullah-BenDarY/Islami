@@ -7,4 +7,8 @@
     <string name="sibhah">التسبيح</string>
     <string name="radio">الإذاعه</string>
     <string name="عدد_التسبيحات">عدد التسبيحات</string>
+    <string name="alhamdulillah">الحمد لله</string>
+    <string name="la_elah_ela_allah">لا إله إلا الله</string>
+    <string name="allah_akbar">الله أكبر</string>
+    <string name="sobhan_allah">سبحان الله</string>
 </resources>
