@@ -12,4 +12,6 @@
     <string name="allah_akbar">الله أكبر</string>
     <string name="sobhan_allah">سبحان الله</string>
     <string name="tv_quran_radio">إذاعة القرآن الكريم</string>
+    <string name="end">النهاية</string>
+    <string name="start">البداية</string>
 </resources>

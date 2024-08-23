@@ -7,9 +7,11 @@ import com.example.islami.R
 import com.example.islami.databinding.ActivityMainBinding
 import com.example.islami.ui.HadithFragment
 import com.example.islami.ui.QuranFrafment
-import com.example.islami.ui.RadioFragment
+import com.example.islami.ui.radio.RadioFragment
 import com.example.islami.ui.SibhahFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private var _binding: ActivityMainBinding? = null
     private val binding get() = _binding!!
