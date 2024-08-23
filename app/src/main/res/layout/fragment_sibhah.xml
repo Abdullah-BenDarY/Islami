@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:background="@drawable/main_background"
-    tools:context=".ui.SibhahFragment">
+    tools:context=".ui.SibhahFragment"
+    >
 
     <ImageView
         android:id="@+id/img_head_of_sebha"
@@ -35,9 +36,6 @@
     <TextView
         android:id="@+id/tv_sebhah_couter"
         style="@style/title_textStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_15sdp"
         android:text="@string/عدد_التسبيحات"
         app:layout_constraintBottom_toTopOf="@id/tv_counter"
         app:layout_constraintEnd_toEndOf="@id/img_body_of_sebha"
